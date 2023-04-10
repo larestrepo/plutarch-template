@@ -12,7 +12,7 @@ library
   exposed-modules:
       Lib
   other-modules:
-      Paths_hello_plutarch
+      Paths_plutarch_template
   hs-source-dirs:
       src
   build-depends:
@@ -30,7 +30,7 @@ library
 executable plutarch-template
   main-is: Main.hs
   other-modules:
-      Paths_hello_plutarch
+      Paths_plutarch_template
   hs-source-dirs:
       exe
   build-depends:
